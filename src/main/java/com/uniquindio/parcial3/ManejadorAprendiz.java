@@ -4,7 +4,7 @@ public class ManejadorAprendiz extends ManejadorNivel{
 
         @Override
         public int manejar(Pedido pedido) {
-            if (pedido.getTamano() == Tamano.PEQUENA) {
+            if (pedido.getTamano() == Tamano.PEQUENO) {
                 System.out.println("[CHAIN] ManejadorAprendiz: tamano PEQUENA -> nivel 1 (Aprendiz)");
                 return 1;
             }

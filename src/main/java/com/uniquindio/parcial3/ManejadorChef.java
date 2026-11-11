@@ -1,6 +1,6 @@
 package com.uniquindio.parcial3;
 
-public class ManejadorChef {
+public class ManejadorChef extends ManejadorNivel {
     @Override
     public int manejar(Pedido pedido) {
         if (pedido.getTamano() == Tamano.GRANDE) {

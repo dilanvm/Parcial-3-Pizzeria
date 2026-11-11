@@ -1,5 +1,8 @@
 package com.uniquindio.parcial3;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Mostrador implements Mediador{
     private List<Cocinero> cocineros;
     private List<Pedido> pedidos;

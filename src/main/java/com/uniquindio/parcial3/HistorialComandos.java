@@ -1,5 +1,7 @@
 package com.uniquindio.parcial3;
 
+import java.util.Stack;
+
 public class HistorialComandos {
     private Stack<Comando> historial;
 
